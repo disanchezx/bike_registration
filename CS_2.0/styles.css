@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    /* Desktop - 1 */
+    position: relative;
+    /* width: 1440px;
+    height: 1024px; */
+    width: 1920px;
+    height: 900px;
+    background: #1B1C1E;
+    min-height: 100vh;
+
+}
+
+.container{
+    position: relative;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.container-text{
+    flex-basis: 50%;
+    padding-left: 210px;
+    overflow: hidden;
+}
+
+.tittle{
+    position: absolute;
+    width: 750px;
+    height: 107px;
+    left: 210px;
+    top: 259px;
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    /* or 64% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.004em;
+    
+    color: #FFFFFF;
+}
+
+.subtittle{
+    position: absolute;
+    width: 500px;
+    height: 41px;
+    left: 210px;
+    top: 411px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 41px;
+    /* identical to box height, or 164% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.004em;
+    
+    color: #D19B29;    
+}
+
+.tamaño-image{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 850px;
+    height: 850px;
+}
+
+.cta1{
+    position: absolute;
+    width: 208px;
+    height: 53px;
+    left: 210px;
+    top: 498px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    border-radius: 4px;
+    color: #1B1C1E;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 14px 32px;
+}
+
+.cta2{
+    position: absolute;
+    width: 208px;
+    height: 53px;
+    left: 472px;
+    top: 498px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    color: #1B1C1E;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 14px 32px;
+}
+
+.personal_names{
+    position: absolute;
+    width: 500px;
+    height: 41px;
+    left: 210px;
+    top: 711px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 41px;
+    /* identical to box height, or 164% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.004em;
+    
+    color: #D19B29; 
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    width: 1920px;
+    height: 900px;
+    background: #fff;
+    
+}
+
+/*Ajusta la posición del formulario */
+.container{
+    height: 1000px;
+    align-content: center;
+    flex-basis: 45%;
+    padding-top: 184px;
+    padding-left: 300px;
+    overflow: hidden;
+
+}
+
+/*Ajusta la posición de la imagen*/
+.tamaño-image-up{
+    position:relative;
+    width: 531px;
+    height: 1000px;
+    left: 0px;
+    top: 0px;
+}
+
+.user-details{
+    left: 457px;
+    top: 184px;
+}
+
+.Tittle{
+    width: 320px;
+    height: 600px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 41px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.004em;
+
+    color: #000000;
+}
+
+/* Tamaño del título */
+.container .tittle{
+    font-size: 30px;
+    font-weight: 500px;
+    position: relative;
+}
+
+.container.tittle::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+}
+
+/*Dos columnas al formulario*/
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*box del formulario*/
+form .user-details .input-box{
+    margin: 20px 0 12px 0;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;;
+    width: calc(100% / 2 - 20px);
+}
+
+/*box del formulario*/
+.user-details .input-box .details{
+    display: block;
+    font-weight: 5px;
+    margin-bottom: none;
+}
+
+/*box del formulario abajo del enunciado*/
+.user-details .input-box input{
+    display: block;
+    padding-left: 15px;
+    width: 205px;
+    height: 30px;
+    margin-bottom: 2px;
+    border: none;
+    border-radius: 6px;
+    background: rgba(222, 222, 222, 0.5);
+}
+
+form .button input{
+    border: none;
+    position: absolute;
+    width: 205px;
+    height: 35px;
+    margin-top: 50px;
+    margin-left: 0px;
+    cursor:pointer;
+
+    background: #D7A395;
+    border-radius: 15px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
